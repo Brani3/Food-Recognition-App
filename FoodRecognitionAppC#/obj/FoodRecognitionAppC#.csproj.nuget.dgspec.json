@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj": {}
+    "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\Food-Recognition-App\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj": {
+    "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\Food-Recognition-App\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj",
+        "projectUniqueName": "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\Food-Recognition-App\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj",
         "projectName": "FoodRecognitionAppC#",
-        "projectPath": "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj",
+        "projectPath": "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\Food-Recognition-App\\FoodRecognitionAppC#\\FoodRecognitionAppC#.csproj",
         "packagesPath": "C:\\Users\\smila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\FoodRecognitionAppC#\\obj\\",
+        "outputPath": "C:\\Users\\smila\\OneDrive\\Documents\\Branimir\\Python and AI\\FoodAIRecognition\\Food-Recognition-App\\FoodRecognitionAppC#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,14 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

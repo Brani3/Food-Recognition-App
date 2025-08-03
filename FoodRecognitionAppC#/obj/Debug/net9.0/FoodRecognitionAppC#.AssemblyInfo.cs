@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodRecognitionAppC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a05cd7c9ddc3f02807ff75f4dc426b8d9fe42a46")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodRecognitionAppC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodRecognitionAppC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

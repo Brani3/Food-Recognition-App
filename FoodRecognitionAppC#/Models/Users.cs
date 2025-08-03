@@ -1,21 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 
 namespace FoodRecognitionAppC_.Models
 {
-    public class User
+    public class User : IdentityUser
     {
-        [Key]
-        public int Id { get; set; }
+        public ICollection<RefreshToken> RefreshTokens { get; set; }
 
-        [Required]
-        [MaxLength(50)]
-        public required string Username { get; set; }
-
-        [Required]
-        public required string PasswordHash { get; set; }
-
-        [EmailAddress]
-        public required string Email { get; set; }
+        public User()
+        {
+            RefreshTokens = new List<RefreshToken>();
+        }
     }
 }
-
